@@ -5,6 +5,7 @@ import BoulvardInfo from '../src/component/boulvardInfo'
 import Highlights from './component/highlights';
 import Pricing from './component/pricing';
 import Location from './component/location';
+import Footer from './component/header_footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Highlights/>
       <Pricing/>
       <Location/>
+      <Footer/>
     </div>
   );
 }
