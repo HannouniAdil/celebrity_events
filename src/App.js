@@ -3,6 +3,8 @@ import Header from './component/header_footer/Header';
 import Featured from '../src/component/featured';
 import BoulvardInfo from '../src/component/boulvardInfo'
 import Highlights from './component/highlights';
+import Pricing from './component/pricing';
+import Location from './component/location';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Featured/>
       <BoulvardInfo/>
       <Highlights/>
+      <Pricing/>
+      <Location/>
     </div>
   );
 }
